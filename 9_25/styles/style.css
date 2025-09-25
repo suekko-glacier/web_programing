@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
