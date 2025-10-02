@@ -2,8 +2,9 @@
 <html lang="ja">
   <head>
     <link href="styles/style.css" rel="stylesheet" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet" />
     <title>テストページ</title>
   </head>
   <body>
@@ -22,21 +23,9 @@
     </ul>
     <p>（この問題は私のインスタグラムで更新している問題の内の1つです）</p>
     <a href="https://www.instagram.com/arai_salt?igsh=MTdnZmZicTgwaXJ6aQ%3D%3D&utm_source=qr">アカウントはこちら</a>
-
-    <script>
-      function checkAnswer() {
-        const input = document.getElementById("answer").value.trim();
-        const correctAnswers = ["あいあいがさ", "相合傘", "相合い傘"];
-        const result = document.getElementById("result");
-
-        if (correctAnswers.includes(input)) {
-          result.textContent = "✅ 正解！";
-          result.className = "correct";
-        } else {
-          result.textContent = "❌ 不正解...";
-          result.className = "wrong";
-        }
-      }
-    </script>
+    <br>
+    
+    <button>ユーザーを変更</button>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
