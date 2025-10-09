@@ -53,6 +53,3 @@ if (!localStorage.getItem("name")) {
   myHeading.textContent = `なぞときはたのしいよ。${storedName}`;
 }
 
-myButton.onclick = () => {
-  setUserName();
-};
